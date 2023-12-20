@@ -1,0 +1,182 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+body {
+    overflow-x: hidden;
+    background-image: url(sdddsd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #wrapper{
+    position: relative;
+    display: grid;
+    grid-template-columns: 8fr 4fr ;
+    gap: 1em;
+  }
+  #wrapper input{
+    width: 100%;
+    background-color: transparent;
+    color: #111111;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+  }
+  #wrapper input:focus{
+    outline: none;
+    border-color: #0056b3;
+  }
+  #wrapper button{
+    padding: 8px 16px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  h1{
+    color: rgb(208, 0, 0);
+    margin: 20px;
+    text-align: center;
+  }
+ #wrapper button:hover {
+    background-color: #0056b3;
+  }
+#error{
+    width: 400px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: red;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    display: none;
+} */
+#taskInput{
+    position: relative;
+    display: grid;
+    grid-template-columns: 8fr 4fr ;
+    gap: 1em;
+}
+  #taskInput input{
+    width: 500px;
+    height: 27px;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid #717171;
+    padding-bottom:20px;
+  } 
+  #taskInput input:focus{
+    outline: none;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 650px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px;
+    color: #d32f2f;
+  }
+  
+  .input-section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .addbtn {
+    width: 100px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+    background-color: #216424;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  #priority,
+  #deadline {
+    margin-right: 10px;
+  }  
+  #progress {
+    margin-top: 20px;
+  }
+  
+  #progressBar {
+    width: 100%;
+  }
